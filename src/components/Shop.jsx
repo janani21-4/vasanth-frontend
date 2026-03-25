@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from './common/Layout'
 import Hero from './common/Hero'
-import ProductImg from '../assets/images/eight.jpg';
-import ProductImage1 from '../assets/images/four.jpg';
-import ProductImage3 from '../assets/images/twelve.jpg';
-import ProductImage4 from '../assets/images/nine.jpg';
-import ProductImage5 from '../assets/images/two.jpg';
-import ProductImage6 from '../assets/images/three.jpg';
+import ProductImg from '../assets/images/shirt1.jpg';
+import ProductImage1 from '../assets/images/shirt2.jpg';
+import ProductImage3 from '../assets/images/shirt7.jpg';
+import ProductImage4 from '../assets/images/shirt4.jpg';
+import ProductImage5 from '../assets/images/shirt5.jpg';
+import ProductImage6 from '../assets/images/shirt6.jpg';
 
 import { Link } from 'react-router-dom';  
 
@@ -84,7 +84,7 @@ const Shop = () => {
                                       </Link>
                                   </div>
                                   <div className='card-body pt-3'>
-                                      <Link to="/product"> Green sweat shirt for men</Link>
+                                      <Link to="/product"> brown sweatshirt for men</Link>
                                       <div className='price'>
                                           $90 <span className='text-decoration-line-through'>$120</span>
                                       </div>
@@ -99,7 +99,7 @@ const Shop = () => {
                                       <img src={ProductImg} alt="" className='w-100' />
                                   </div>
                                   <div className='card-body pt-3'>
-                                      <a href=""> Red checked shirt for men</a>
+                                      <a href=""> black sweatshirt for men</a>
                                       <div className='price'>
                                           $50 <span className='text-decoration-line-through'>$80</span>
                                       </div>
@@ -114,7 +114,7 @@ const Shop = () => {
                                       <img src={ProductImage3} alt="" className='w-100' />
                                   </div>
                                   <div className='card-body pt-3'>
-                                      <a href=""> Plain white shirt for men</a>
+                                      <a href=""> Plain white t-shirt and denim jacket for men</a>
                                       <div className='price'>
                                           $60 <span className='text-decoration-line-through'>$80</span>
                                       </div>
@@ -129,7 +129,7 @@ const Shop = () => {
                                       <img src={ProductImage4} alt="" className='w-100' />
                                   </div>
                                   <div className='card-body pt-3'>
-                                      <a href=""> Black denim shirt for men</a>
+                                      <a href=""> purple sweathirt for men</a>
                                       <div className='price'>
                                           $70 <span className='text-decoration-line-through'>$100</span>
                                       </div>
@@ -144,7 +144,7 @@ const Shop = () => {
                                       <img src={ProductImage5} alt="" className='w-100' />
                                   </div>
                                   <div className='card-body pt-3'>
-                                      <a href=""> Peach formal suit for men</a>
+                                      <a href="">  formal suit for men</a>
                                       <div className='price'>
                                           $80 <span className='text-decoration-line-through'>$120</span>
                                       </div>
@@ -159,7 +159,7 @@ const Shop = () => {
                                       <img src={ProductImage6} alt="" className='w-100' />
                                   </div>
                                   <div className='card-body pt-3'>
-                                      <a href=""> Blue denim for men</a>
+                                      <a href=""> green formal suit for men</a>
                                       <div className='price'>
                                           $60 <span className='text-decoration-line-through'>$100</span>
                                       </div>
