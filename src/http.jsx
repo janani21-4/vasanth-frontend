@@ -1,0 +1,1 @@
+export const apiUrl = "https://vasanth-backend.onrender.com";
